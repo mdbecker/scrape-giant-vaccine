@@ -1,0 +1,63 @@
+{
+  "invitee_publisher_error": false,
+  "today": "2021-02-07",
+  "availability_timezone": "America/New_York",
+  "days": [
+    {
+      "date": "2021-02-07",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-10",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-11",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-17",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-18",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-20",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-21",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    }
+  ],
+  "diagnostic_data": null,
+  "current_user": {
+    "email": null,
+    "locale": null,
+    "date_notation": null,
+    "time_notation": null,
+    "avatar_url": null,
+    "calendar_accounts": null,
+    "is_pretending": false,
+    "diagnostics": {
+      "available": false,
+      "enabled": false
+    }
+  }
+}
