@@ -1,0 +1,19 @@
+curl 'https://giantsched.rxtouch.com/rbssched/program/Covid19/Patient/CheckZipCode' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'sec-ch-ua: "Google Chrome";v="87", " Not;A Brand";v="99", "Chromium";v="87"' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Origin: https://giantsched.rxtouch.com' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://giantsched.rxtouch.com/rbssched/program/Covid19/Patient/Advisory' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cookie: ASP.NET_SessionId=a3q1lawx4qfdavytyadg3yuz; .ASPXAUTH=6B049CD5AAB1A00B188915A37ED7D0F0D8B264FCD0AA473E19C8361D223A5909266E9BCEE2043051C06D1C3A00395FCC4A9E2D5531CB31E7A042FE086CA8CE76D7E94BA418FA0B8562D1FBC63265BC8F013540452F3A8B7C28E78D8EA905068F4A4FC7005B82D71D795AA7D03797A4D8225716305FB8CD53B4595E3047A0832E; QueueITAccepted-SDFrts345E-V3_giantcovid19=EventId%3Dgiantcovid19%26QueueId%3D8459a456-ac76-44f7-b301-1af5b52e17a7%26RedirectType%3Dsafetynet%26IssueTime%3D1612714488%26Hash%3D1159ee50aacd0db0b57d769331cffce83a7c01713b24acd9fd768af3b18a89f1' \
+  --data-raw 'zip=18951&appointmentType=5958&PatientInterfaceMode=0' \
+  --compressed
