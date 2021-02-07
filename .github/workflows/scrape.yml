@@ -1,0 +1,43 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '52 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch 19464 data
+      run: |-
+        bash 19464.sh > 19464.out
+    - name: Fetch 19406 data
+      run: |-
+        bash 19406.sh > 19406.out
+    - name: Fetch 19372 data
+      run: |-
+        bash 19372.sh > 19372.out
+    - name: Fetch 19607 data
+      run: |-
+        bash 19607.sh > 19607.out
+    - name: Fetch 18951 data
+      run: |-
+        bash 18951.sh > 18951.out
+    - name: Fetch 18976 data
+      run: |-
+        bash 18976.sh > 18976.out
+    - name: Fetch 19030 data
+      run: |-
+        bash 19030.sh > 19030.out
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
