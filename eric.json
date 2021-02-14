@@ -32,6 +32,36 @@
       "status": "unavailable",
       "spots": [],
       "invitee_events": []
+    },
+    {
+      "date": "2021-02-23",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-24",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-25",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-27",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
+    },
+    {
+      "date": "2021-02-28",
+      "status": "unavailable",
+      "spots": [],
+      "invitee_events": []
     }
   ],
   "diagnostic_data": null,
