@@ -4,12 +4,6 @@
   "availability_timezone": "America/New_York",
   "days": [
     {
-      "date": "2021-02-14",
-      "status": "unavailable",
-      "spots": [],
-      "invitee_events": []
-    },
-    {
       "date": "2021-02-17",
       "status": "unavailable",
       "spots": [],
